@@ -1,0 +1,248 @@
+body {
+    background-color: #ebf9e6;
+    color: #091505;
+}
+
+ul {
+    padding: 0 2.25rem;
+}
+
+li {
+    text-align: left;
+}
+
+h5 {
+    color: #34cc00;
+    font-weight: bold;
+}
+
+.content {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(167, 200, 156, .5);
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+.my-nav {
+    background-color: #34cc00;
+}
+
+.nav-logo {
+    height: 2rem;
+}
+
+.wordy-list {
+    list-style-type: none;
+    margin-top: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#home-title {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#slogan {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#subline {
+    text-align: center;
+    padding: 0 2.25rem;
+    font-size: 1.5rem;
+}
+
+#home-head {
+    padding: 2rem;
+    background-color: white;
+    background-image: url("../images/staplogopics.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#home-chapel {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0 2.25rem;
+}
+
+.right-half {
+    padding: 0 3rem;
+}
+
+.affiliation {
+    height: 7rem;
+    margin: 0 auto 1rem auto;
+}
+
+.affiliation-box {
+    margin-top: 1rem;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #b2e1a1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-slide, .dot:hover {
+  background-color: #34cc00;
+}
+
+/* Fading animation */
+.my-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.class-card {
+    margin-bottom: 1rem;
+}
+
+.page-title {
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+}
+
+.sub-list-box {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.sub-list {
+    margin-bottom: .5rem;
+}
+
+.spacer {
+    padding: 1rem;
+}
+
+.staff-pic {
+    width: 100%;
+    padding: .8rem 0;
+}
+
+.picture-box {
+    margin: .5rem 2rem;
+}
+
+.contact {
+    text-align: center;
+    margin: .25rem;
+    font-weight: bold;
+}
+
+.features {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #34cc00;
+}
+
+#naeyc-logo {
+    width: 15rem;
+}
+
+.full-margin {
+    padding: 0 2rem;
+}
+
+.about-card {
+    width: 75%;
+    margin: .5rem auto;
+}
+
+.about-card-header {
+    background-color: #ebf9e6;
+    color: #1c3e11;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.about-section {
+    margin: 0 2rem 3rem 2rem;
+}
