@@ -1,5 +1,4 @@
 body {
-    background-color: #ebf9e6;
     color: #091505;
 }
 
@@ -18,9 +17,7 @@ h5 {
 
 .content {
     background-color: white;
-    box-shadow: 0 0 10px rgba(167, 200, 156, .5);
-    border-radius: 15px;
-    margin: 2rem auto;
+    margin: .5rem auto 2rem auto;
 }
 
 .my-nav {
@@ -39,16 +36,29 @@ h5 {
 }
 
 #home-title {
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    color: white;
+    width: 100%;
+    font-size: 300%;
+    text-shadow: -1px 0 #091505, 0 1px #091505, 1px 0 #091505, 0 -1px #091505;
     font-weight: bold;
     text-align: center;
-    margin-top: 10rem;
+    position: absolute;
+    line-height: .8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#home-banner-content {
+    position: relative;
 }
 
-#slogan {
-    font-weight: bold;
+#home-banner-logo {
+    width: 80%;
+}
+
+#banner-box {
+    margin: 0 auto;
     text-align: center;
-    margin-top: 1rem;
 }
 
 #subline {
@@ -57,13 +67,21 @@ h5 {
     font-size: 1.5rem;
 }
 
+#slogan {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #34cc00;
+}
+
 #home-head {
-    padding: 2rem;
+    padding: 1rem;
     background-color: white;
-    background-image: url("../images/staplogopics.png");
-    background-size: 60%;
+    background-image: url("../images/photos/buildinglight.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 1rem;
 }
 
 #home-chapel {
@@ -179,14 +197,57 @@ h5 {
   from {opacity: .4} 
   to {opacity: 1}
 }
+.class-head {
+    background-image: url("../images/photos/classhead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.registration-head {
+    background-image: url("../images/photos/registration.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parents-head {
+    background-image: url("../images/photos/parentshead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.accreditation-head {
+    background-image: url("../images/photos/accreditationhead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-head {
+    background-image: url("../images/photos/abouthead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.staff-head {
+    background-image: url("../images/photos/staffhead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .class-card {
     margin-bottom: 1rem;
 }
 
 .page-title {
-    padding: 1rem 1rem 0 1rem;
+    font-size: 400%;
     text-align: center;
+    color: white;
+    text-shadow: -1px 0 #091505, 0 1px #091505, 1px 0 #091505, 0 -1px #091505;
 }
 
 .sub-list-box {
@@ -245,4 +306,33 @@ h5 {
 
 .about-section {
     margin: 0 2rem 3rem 2rem;
+}
+
+.blog {
+    width: 75%;
+    margin: 0 auto 1rem auto;
+}
+
+.blog-body{
+    padding: 1rem;
+}
+
+.blog-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.blog-author {
+    display: inline;
+    margin-right: .5rem;
+    color: #546e4b;
+}
+
+.blog-date {
+    display: inline;
+    color: #546e4b;
+}
+
+.blog-content {
+    margin-top: 1rem;
 }
