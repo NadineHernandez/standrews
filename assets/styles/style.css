@@ -25,7 +25,7 @@ h5 {
 }
 
 .nav-logo {
-    height: 2rem;
+    height: 1.75rem;
 }
 
 .wordy-list {
@@ -38,22 +38,33 @@ h5 {
 #home-title {
     color: white;
     width: 100%;
-    font-size: 300%;
+    font-size: 350%;
     text-shadow: -1px 0 #091505, 0 1px #091505, 1px 0 #091505, 0 -1px #091505;
     font-weight: bold;
     text-align: center;
-    position: absolute;
     line-height: .8;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 4rem;
 }
 #home-banner-content {
     position: relative;
+    width: 100%;
+}
+
+.home-divider {
+    border-color: white;
+    width: 75%;
 }
 
 #home-banner-logo {
     width: 80%;
+}
+
+#banner-text-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #banner-box {
@@ -68,16 +79,20 @@ h5 {
 }
 
 #slogan {
+    width: 70%;
     text-align: center;
-    margin: 0 auto;
+    font-weight: 400;
     font-size: 1.5rem;
-    color: #34cc00;
+    text-align: center;
+    margin: .5rem auto 1rem auto;
+    color: white;
+    line-height: .8;
 }
 
 #home-head {
     padding: 1rem;
     background-color: white;
-    background-image: url("../images/photos/buildinglight.jpg");
+    background-image: url("../images/photos/playgroundlight.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -226,7 +241,7 @@ h5 {
 }
 
 .about-head {
-    background-image: url("../images/photos/abouthead.jpg");
+    background-image: url("../images/photos/buildinglight.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -239,12 +254,33 @@ h5 {
     background-repeat: no-repeat;
 }
 
+.news-head {
+    background-image: url("../images/photos/newshead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-head {
+    background-image: url("../images/photos/contacthead.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.handbook-head {
+    background-image: url("../images/photos/handbook-head.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .class-card {
     margin-bottom: 1rem;
 }
 
 .page-title {
-    font-size: 400%;
+    font-size: 350%;
     text-align: center;
     color: white;
     text-shadow: -1px 0 #091505, 0 1px #091505, 1px 0 #091505, 0 -1px #091505;
@@ -336,3 +372,10 @@ h5 {
 .blog-content {
     margin-top: 1rem;
 }
+
+
+/* Add this for tablet size */
+
+/* .my-brand {
+    width: 10%;
+} */
