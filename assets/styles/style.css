@@ -448,6 +448,19 @@ a.blog-blurb {
     #home-contact-bottom {
         display: block;
     }
+
+    .footer-content {
+        font-size: .9rem;
+    }
+
+    .footer {
+        height: 4.5rem;
+        margin-top: -4.5rem;
+    }
+
+    .content {
+        padding-bottom: 6.5;
+    }
   }
 
   @media screen and (max-width: 1115px) and (min-width: 992px) {
