@@ -1,5 +1,10 @@
 body {
     color: #091505;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 ul {
@@ -17,7 +22,9 @@ h5 {
 
 .content {
     background-color: white;
-    margin: .5rem auto 2rem auto;
+    margin: .5rem auto 0 auto;
+    overflow: auto;
+    padding-bottom: 5rem;
 }
 
 .my-nav {
@@ -28,11 +35,28 @@ h5 {
     height: 1.75rem;
 }
 
+.cushion {
+    min-height: 100%;
+}
+
+.footer {
+    position: relative;
+    height: 3rem;
+    background-color: #34cc00;
+    margin-top: -3rem;
+    clear: both;
+}
+
+.footer-content {
+    color: rgba(255,255,255,.5);
+    padding-top: 0.75rem;
+    text-align: center;
+}
+
 .wordy-list {
     list-style-type: none;
     margin-top: 1rem;
     line-height: 1.5;
-    text-align: center;
 }
 
 #home-title {
@@ -97,6 +121,23 @@ h5 {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 1rem;
+}
+
+#home-contact-bottom {
+    display: none;
+}
+
+a.blog-blurb {
+    color: #091505;
+}
+
+.blog-blurb-content {
+    margin-top: .2rem;
+}
+
+#home-news {
+    list-style: none;
+    padding: 0;
 }
 
 #home-chapel {
@@ -371,10 +412,6 @@ h5 {
 
 .blog-content {
     margin-top: 1rem;
-}
-
-#home-contact-bottom {
-    display: none;
 }
 
 /* Add this for tablet size */
