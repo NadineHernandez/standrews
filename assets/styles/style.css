@@ -8,7 +8,7 @@ html {
 }
 
 ul {
-    padding: 0 2.25rem;
+    padding: 0 1rem;
 }
 
 li {
@@ -382,7 +382,7 @@ a.blog-blurb {
 }
 
 .about-section {
-    margin: 0 2rem 3rem 2rem;
+    margin: 0 0 3rem 0;
 }
 
 .blog {
